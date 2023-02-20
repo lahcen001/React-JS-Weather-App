@@ -12,7 +12,7 @@ const [data, setData]= useState({});
 const [location , setLocation] = useState('')
 const [loader, setLoader] = useState(false)
 
-const url = `http://api.openweathermap.org/data/2.5/weather?q=${location},usa&APPID=e273957891ab7b16f2a0c2f137025328`
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${location},usa&APPID=e273957891ab7b16f2a0c2f137025328`
 
 
 const searchLocation =(event)=>{
